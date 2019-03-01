@@ -89,7 +89,7 @@ class Manager extends React.Component {
 			>
 				{/* eslint-enable jsx-a11y/no-static-element-interactions */}
 				<div className="slds-modal__header">
-					<h2 className="slds-text-heading_medium">{this.props.title}</h2>
+					<h2 className="slds-text-heading_medium">{this.props.heading}</h2>
 					<Button
 						className="slds-button slds-modal__close"
 						onClick={this.closeModal}
